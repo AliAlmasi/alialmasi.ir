@@ -2,9 +2,8 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default async function Document() {
 	return (
-		<Html lang="en">
+		<Html lang="en" className="w-full h-full">
 			<Head>
-				<title>{process.env.author}</title>
 				<link rel="shortcut icon" href="/favicon.png" type="image/png" />
 				<link rel="apple-touch-icon" href="/favicon.png" />
 				<link rel="manifest" href="/api/manifest" />
@@ -24,7 +23,7 @@ export default async function Document() {
 				<meta name="twitter:description" content={process.env.description} />
 				<meta name="twitter:image" content="/ogp.png" />
 			</Head>
-			<body className="antialiased">
+			<body className="antialiased w-full h-full">
 				<Main />
 				<NextScript />
 			</body>

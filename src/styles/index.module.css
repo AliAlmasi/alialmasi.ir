@@ -1,0 +1,18 @@
+.title {
+	@apply flex flex-col items-center w-fit;
+}
+.name {
+	@apply font-bold text-4xl;
+}
+.sub {
+	@apply text-xl;
+}
+.bio {
+	@apply text-balance;
+}
+.linksDesc {
+	@apply text-gray-700;
+}
+.linksList {
+	@apply flex gap-4 text-blue-600;
+}
