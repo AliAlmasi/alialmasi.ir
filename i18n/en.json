@@ -1,24 +1,24 @@
 {
-	"index": {
-		"page": "Ali Almasi",
-		"main": {
-			"name": "Ali Almasi",
-			"sub": "Web Developer & Computer Network Student",
-			"bio": "Currently in Tehran, my interests range from technology to art.",
-			"linksDesc": "You can use the following links to connect with me:",
-			"links": {
-				"linkedin": "LinkedIn",
-				"twitter": "X/Twitter",
-				"telegram": "Telegram",
-				"email": "Email",
-				"github": "GitHub",
-				"mastadon": "Mastadon",
-				"gpg": "GPG",
-				"wakatime": "Wakatime",
-				"donate": "Donate",
-				"notebook": "Notebook",
-				"instagram": "Instagram"
-			}
-		}
-	}
+  "index": {
+    "page": "Ali Almasi",
+    "main": {
+      "name": "Ali Almasi",
+      "sub": "Web Developer & Computer Network Student",
+      "bio": "Currently in Tehran, my interests range from technology to art.",
+      "linksDesc": "You can use the following links to connect with me:",
+      "links": {
+        "linkedin": "LinkedIn",
+        "twitter": "X/Twitter",
+        "telegram": "Telegram",
+        "email": "Email",
+        "github": "GitHub",
+        "mastodon": "Mastadon",
+        "gpg": "GPG",
+        "wakatime": "Wakatime",
+        "donate": "Donate",
+        "notebook": "Notebook",
+        "instagram": "Instagram"
+      }
+    }
+  }
 }
