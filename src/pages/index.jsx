@@ -6,7 +6,6 @@ import TopBar from "@/components/TopBar";
 
 import links from "@/links";
 import style from "@/styles/index.module.css";
-import Logo from "@/components/Logo";
 
 const vazirmatn = Vazirmatn({
   variable: "--font-vazirmatn",
@@ -30,12 +29,12 @@ export default function Index() {
             <h2 className={style.sub}>{t("main.sub")}</h2>
           </div>
           <p>{t("main.bio")}</p>
-          <p className={style.linksDesc}>{t("main.linksDesc")}</p>
           <ul className={style.linksList}>
             {links.map((link, i) => (
               <li key={i}>
                 <a href={link.href} className={style.linkBox}>
-                  {link.logo} {t("main.links." + link.name)}
+                  {t("main.links." + link.name)}
+                  {link.logo}
                 </a>
               </li>
             ))}
